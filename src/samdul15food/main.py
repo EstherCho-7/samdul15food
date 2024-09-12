@@ -17,7 +17,7 @@ def food(name: str):
     time=datetime.now().strftime("%Y-%m-%d %H:%M:%S")
     # 음식 이름과 시간을 csv로 저장 -> /code/data/food.csv
 
-    file_path = "data/food.csv"
+    file_path = "/code/data/food.csv"
 
     os.makedirs(os.path.dirname(file_path), exist_ok=True)
 
