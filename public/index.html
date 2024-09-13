@@ -17,7 +17,7 @@
         document.getElementById("foodForm").addEventListener("submit", function(event) {
 
             const foodName = document.getElementById("foodName").value;
-            const url = `https://samdul15food.web.app/food?name=${encodeURIComponent(foodName)}`;
+            const url = `https://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com/n15/food?name=${encodeURIComponent(foodName)}`;
 
             fetch(url, {
                 method: 'GET',
