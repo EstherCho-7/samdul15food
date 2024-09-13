@@ -14,8 +14,8 @@ app = FastAPI()
 origins = [
     "http://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com.tiangolo.com",
     "https://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com.tiangolo.com",
-    "http://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com",
-    "http://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com:80",
+    "https://samdul15food.web.app",
+    "https://samdul15food.web.app:80",
 ]
 
 app.add_middleware(
