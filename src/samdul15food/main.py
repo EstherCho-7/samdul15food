@@ -12,10 +12,10 @@ app=FastAPI()
 app = FastAPI()
 
 origins = [
-    "http://localhost.tiangolo.com",
-    "https://localhost.tiangolo.com",
-    "http://localhost",
-    "http://localhost:8899",
+    "http://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com.tiangolo.com",
+    "https://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com.tiangolo.com",
+    "http://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com",
+    "http://ec2-43-203-204-195.ap-northeast-2.compute.amazonaws.com:80",
 ]
 
 app.add_middleware(
